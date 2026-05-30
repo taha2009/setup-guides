@@ -1,0 +1,38 @@
+site_name: Setup & Config Guides
+site_description: Installation and configuration guides for common server stacks and tools
+docs_dir: docs
+
+theme:
+  name: material
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.instant
+    - navigation.sections
+    - navigation.top
+    - content.code.copy
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.superfences
+  - pymdownx.inlinehilite
+  - admonition
+  - tables
+  - toc:
+      permalink: true
+
+nav:
+  - Home: index.md
+  - LAMP Stack:
+    - Install: lamp/01-install-lamp.md
+    - Virtual Host & .htaccess: lamp/02-configure-vhost-htaccess.md
+    - PHP Error Display: lamp/03-enable-php-errors.md
+    - Upload Size Limits: lamp/04-increase-upload-size.md
