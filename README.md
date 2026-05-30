@@ -5,7 +5,7 @@ Installation and configuration guides for common server stacks and tools.
 ## Run locally
 
 ```bash
-pip install mkdocs-material
+pip install -r requirements.txt
 mkdocs serve
 ```
 
