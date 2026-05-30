@@ -17,6 +17,7 @@ theme:
     - navigation.instant
     - navigation.sections
     - navigation.top
+    - navigation.footer
     - content.code.copy
 
 markdown_extensions:
@@ -32,7 +33,8 @@ markdown_extensions:
 nav:
   - Home: index.md
   - LAMP Stack:
-    - Install: lamp/01-install-lamp.md
-    - Virtual Host & .htaccess: lamp/02-configure-vhost-htaccess.md
-    - PHP Error Display: lamp/03-enable-php-errors.md
-    - Upload Size Limits: lamp/04-increase-upload-size.md
+    - Overview: lamp/index.md
+    - Install: lamp/install.md
+    - Virtual Host & .htaccess: lamp/vhost-htaccess.md
+    - PHP Error Display: lamp/php-errors.md
+    - Upload Size Limits: lamp/upload-size.md

@@ -160,7 +160,3 @@ apache2 -v
 mysql --version
 php -v
 ```
-
----
-
-**Next:** [Configure virtual host and enable .htaccess](./02-configure-vhost-htaccess.md)
